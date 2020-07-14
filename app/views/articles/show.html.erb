@@ -1,0 +1,9 @@
+<div class="container">
+  <%= link_to "Back to articles",  articles_path %>
+  <%= link_to  "Edit", edit_article_path %>
+  <div class="row">
+    <h2><%= @article.title %></h2>
+    <%= image_tag(@article.image) %>
+    <p class="flow-text article-body"><%= @article.body %></p>
+  </div>
+</div>
