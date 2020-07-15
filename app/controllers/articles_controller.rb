@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   include ArticlesHelper
   before_action :set_article,  only: [:show, :edit, :update, :destroy]
-
+  before_action :current_user
   def index
     @articles = Article.all
   end
