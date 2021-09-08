@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass', '~> 1.0'
-gem 'better_errors', '~> 2.7', '>= 2.7.1'
+gem 'better_errors', '~> 2.8'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'sassc-rails', '>= 2.1.0'
